@@ -1,0 +1,65 @@
+.DP_main{
+    background: #1F4B47;
+    color: #fff;
+}
+.btn_back{
+    border: 2px solid  gray;
+    padding:12px;
+    margin: 12px ;
+    border-radius: 18px 18px 18px 18px  ;
+    font-size:21px;
+    color:  #f8f9f9 ;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.btn_back:hover{
+    border: 2px solid  gray;
+    padding:12px;
+    margin: 12px ;
+    border-radius: 18px 18px 18px 18px  ;
+    font-size:21px;
+    color: #52be80   ;
+}
+.Details{
+    width: 100%;
+    margin: 7px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.showImg{
+    width: 23rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 42px 8px 42px 8px; 
+}
+.details{
+    text-align: justify;
+}
+.Summary{
+    width: 20%;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+@media screen and (max-width: 980px) {
+    .Details{
+        width: 100%;
+        margin: 7px auto;
+        text-align: center;
+        display: grid;
+    }
+    .showImg{
+        width: 100%;
+    }
+    .details{
+        text-align: center;
+    }
+    .Summary{
+        width: 100%;
+        text-align: center;
+        margin: 6px 0;
+    }
+    .genres{
+        text-align: center;
+    }
+    
+  }

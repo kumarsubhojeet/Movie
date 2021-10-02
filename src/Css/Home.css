@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  #f4f6f6 ;
+}
+.card{
+    width: 100%;
+    margin: 6px auto;
+    text-align: center;
+    min-height:500px
+}
+.card-body{
+    text-align:justify;
+    background: #1F4B47 ;
+    color: #fff;
+}
+.btn{
+    text-align:right;
+    color: aliceblue;
+    float: right;
+    text-decoration:none !important;
+    font-weight: 500;
+}
+
+.btn:hover{
+    text-align:right;
+    color:  #52be80   ;
+    text-decoration:none !important;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 980px) {
+    .card{
+        width: 100%;
+        margin: 6px auto;
+        text-align: center;
+        min-height:auto
+    }
+    
+  }
